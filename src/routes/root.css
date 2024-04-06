@@ -1,0 +1,49 @@
+#root {
+  display: flex;
+}
+#sidebar {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+}
+#info {
+  background-color: rgb(136, 196, 236);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+#detail {
+  padding: 20px;
+}
+#detail h3 {
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(218, 116, 1);
+  padding: 10px;
+  text-align: center;
+}
+#detail h2 {
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  text-align: center;
+}
+
+body {
+  font-size: larger;
+}
+#logo {
+  width: 120px;
+}
+
+#port {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
